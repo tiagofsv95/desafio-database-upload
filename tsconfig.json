@@ -62,5 +62,9 @@
 
     /* Advanced Options */
     "forceConsistentCasingInFileNames": true  /* Disallow inconsistently-cased references to the same file. */
-  }
+  },
+  "files": ["src/@types/custom.d.ts"],
+  "include": [ // está parte acredito que já estava no documento também
+    "src"
+  ]
 }
